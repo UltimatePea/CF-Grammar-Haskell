@@ -1,0 +1,5 @@
+E->Id:+:E|E'
+E'->Id:*:T|Id
+T->Id:*:T|T'
+T'->Id
+Id->1|(:E:)

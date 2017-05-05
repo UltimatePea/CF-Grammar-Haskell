@@ -27,6 +27,8 @@ processInput :: String  -- grammar file content
                 -> Int  -- number of strings to display
                 -> String -- the output
 processInput str n = let lang = genLanguageFromFile str
-                      in unlines $ take n lang
+                         results = take n lang
+                         pretty = zipWith (\n str -> show n ++ ": " ++ str) [1..] results
+                     in unlines pretty
 
 
