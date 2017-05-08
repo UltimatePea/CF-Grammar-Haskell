@@ -46,7 +46,7 @@ extra-source-files:  ChangeLog.md
 cabal-version:       >=1.10
 
 
-executable CFG
+executable hscfggen
   -- .hs or .lhs file containing the Main module.
   main-is:             CFGMain.hs
   
