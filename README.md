@@ -47,6 +47,18 @@ cabal install
 
 You can now use `hscfggen` program.
 
+To install `cabal` on macOS, try `brew cask install haskell-platform`.
+
+## Usage
+
+```
+$ hscfggen [grammar-file [num-tokens] ] 
+```
+
+The program accepts two optional arguments, grammar file name and number 
+of words to display. 
+If `grammar-file` is not specified, `stdin` is used as a grammar file.
+
 ## Format of Grammar file
 
 See example `grammar.txt`
