@@ -54,6 +54,7 @@ See example `grammar.txt`
 - Use `->` to specify left and right hand side.
 - Use `|` to split multiple right hand sides.
 - Use `:` to concatenate symbols together.
+- Leave empty for epsilon rules, e.g. `S->` OR `S->S'|`
 
 ## Attention and Limitations
 
@@ -61,4 +62,5 @@ See example `grammar.txt`
 - Neither `|` or `:` is  not allowed in variables or terminals.
 - There are currently no escape sequences.
 - You can use multi-character variables, since strings are concatenated together using `:`
+
 
