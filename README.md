@@ -51,14 +51,14 @@ You can now use `hscfggen` program.
 
 See example `grammar.txt`
 
-- Use -> to specify left and right hand side.
-- Use | to split multiple right hand sides.
-- Use : to concatenate symbols together.
+- Use `->` to specify left and right hand side.
+- Use `|` to split multiple right hand sides.
+- Use `:` to concatenate symbols together.
 
 ## Attention and Limitations
 
--  -> is not allowed in Variables
-- | and : is not allowed in variables or terminals.
+- `->` is not allowed in Variables
+- Neither `|` or `:` is  not allowed in variables or terminals.
 - There are currently no escape sequences.
-- You can use multi-character variables, since strings are concatenated together using :
+- You can use multi-character variables, since strings are concatenated together using `:`
 
